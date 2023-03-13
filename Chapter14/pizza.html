@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="pizza.css">
+</head>
+
+
+<body>
+    <h1>JavaScript Pizzeria</h1>
+
+    <div id="orderForm">
+        <label>How many pizzas do you want?
+            <input type="number" id="numPizzas" />
+        </label>
+        <br />
+        <br />
+        <label>What kind of pizzas?
+            <select id="typePizza">
+                <option value="cheese">Cheese</option>
+                <option value="pepperoni">Pepperoni</option>
+                <option value="Supreme">mozzaeeella</option>
+            </select>
+        </label>
+        <br />
+        <br />
+        <label>Where do you live?
+            <select id="deliveryCity">
+                <option value="Anytown">Anytown</option>
+                <option value="France">Paris</option>
+                <option value="UAE">Dubai</option>
+                <option value="Morocco">Casablanca</option>
+            </select>
+        </label>
+        <br />
+        <br />
+
+        <button type="button" id="placeOrder">Place Order</button>
+    </div>
+    <div id="displayTotal"></div>
+    <script src="pizza.js">
+    </script>
+
+</body>
+
+</html>
