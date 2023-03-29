@@ -1,0 +1,37 @@
+#Monday,
+#Tuesday,
+#Wednesday,
+#Thursday,
+#Friday {
+    width: 18%;
+    height: 200px;
+    float: left;
+    border: 1px solid rgb(243, 39, 39);
+    padding: 2px;
+    font-family: cursive;
+    font-size: 12px;
+}
+
+.Sunny {
+    background-color: skyblue;
+    background-image: url(rain.jpg);
+    background-size: 100px;
+}
+
+.Raining {
+    background-color: rgb(248, 148, 248);
+    background-image: url(sunny.jpg);
+    background-size: 300px;
+}
+
+.Cloudy {
+    background-image: url(Cloud.jpg);
+    background-size: 300px;
+}
+
+.Thunderstorm {
+    background-image: url(Cloud9.jpg);
+    background-size: 300px;
+    background-color: rgb(143, 118, 118);
+    color: #fff;
+}
