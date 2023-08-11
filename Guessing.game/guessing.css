@@ -1,0 +1,29 @@
+#gamebox {
+    border: 40px;
+    background-color: yellowgreen;
+    border-radius: 40px;
+    
+}
+h1 {
+    font-family: 'Times New Roman';
+    text-align: center;
+    font-size: 80px;
+
+}
+p {
+    text-align: center;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+button{
+
+    border: 40px;
+border-color: black;
+
+}
+#input-area {
+    border: 20px;
+    border-width: 10cm;
+    border-color: black;
+}
